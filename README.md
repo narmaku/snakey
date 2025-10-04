@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # snakey
 Classic Snake Game inspired by the ones included in the 2000's NOKIA feature phones.
 =======
@@ -163,4 +162,3 @@ Built as a tribute to the classic Nokia 1100 Snake game. For educational and nos
 ---
 
 **Enjoy the nostalgia! 🐍📱**
->>>>>>> b1abd33 (Initial commit: Nokia 1100 Snake game with Flask and uv setup)
