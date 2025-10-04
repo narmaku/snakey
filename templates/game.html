@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia Snake Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="nokia-container">
+        <div class="game-header">
+            <h1>NOKIA SNAKE</h1>
+            <div class="score-display">
+                <span>Score: <span id="currentScore">0</span></span>
+                <span>High Score: <span id="highScore">0</span></span>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
+        
+        <div class="game-controls">
+            <p>Use arrow keys or WASD to control the snake</p>
+            <div class="control-buttons">
+                <button id="startBtn">Start Game</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="restartBtn">New Game</button>
+            </div>
+            <div class="sound-controls">
+                <label for="soundToggle">
+                    <input type="checkbox" id="soundToggle" checked> Sound Effects
+                </label>
+            </div>
+        </div>
+        
+        <div class="game-status">
+            <p id="gameStatus">Press Start to begin</p>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='sound_engine.js') }}"></script>
+    <script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html>
