@@ -1,9 +1,6 @@
-# snakey
-Classic Snake Game inspired by the ones included in the 2000's NOKIA feature phones.
-=======
-# Nokia 1100 Snake Game 🐍
+# Snakey 🐍
 
-A faithful recreation of the classic Nokia 1100 Snake game as a modern web application built with Python and Flask.
+A (hopefully) faithful recreation of the classic Nokia 1100 Snake game as a modern web application built with Python and Flask.
 
 ## Features
 
